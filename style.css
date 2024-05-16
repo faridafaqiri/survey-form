@@ -28,7 +28,7 @@ body {
   padding: 20px;
   }
 
-#lname-label, #name-label, #email-label, #number-label{
+#name, #lname, #email, #number xz~  {
   margin: 5px;
   width: 100%;
   min-height: 2em;
