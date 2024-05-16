@@ -18,7 +18,7 @@ body {
   margin: 1em auto;
   text-align: center;
 }
-  
+
 #survey-form {
   max-width: 600px;
   margin: 50px auto;
@@ -27,9 +27,12 @@ body {
   background-color: #e5d6d6;
 }
 
-#name, 
+#name,
+
 #lname,
+
 #email,
+
 #number {
   margin: 5px;
   width: 100%;
@@ -38,6 +41,7 @@ body {
 }
 
 .form-control input[type="radio"], 
+
 .form-control[type="checkbox"] {
   display: inline-block;
   margin: 5px;  
@@ -74,6 +78,3 @@ input[type="submit"] {
   border-radius: 4px;
   cursor: pointer;
 }
-
-  
-
