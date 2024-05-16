@@ -41,8 +41,7 @@ body {
 
 .form-control[type="checkbox"] {
   display: inline-block;
-  margin: 5px; 
- 
+  margin: 5px;
 }
 
 select {
