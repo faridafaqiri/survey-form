@@ -28,11 +28,8 @@ body {
 }
 
 #name,
-
 #lname,
-
 #email,
-
 #number {
   margin: 5px;
   width: 100%;
@@ -41,12 +38,11 @@ body {
 }
 
 .form-control input[type="radio"], 
-
 .form-control[type="checkbox"] {
   display: inline-block;
   margin: 5px;  
 }
-  
+
 select {
   width: 100%;
   padding: 10px 20px;
