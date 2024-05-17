@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survry Form</title>
+</head>
+<body>
+    <h1 id="title">Survey form</h1>
+    <p id="description">This is my second project by the name of survey form that I used HTML and CSS in this project</p>
+    <form id="survey-form">
+        <div class="form-control">
+            <label for="name" id="name-label">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-control">
+            <label for="lname" id="lname-label">Last Name</label>
+            <input type="text" id="lname" placeholder="Enter your last name" required>
+        </div>
+        <div class="form-control">
+            <label for="email" id="email-label">Email</label>
+            <input type="email" id="email" placeholder="Enter your eamil" required>
+        </div>
+        <div class="form-control">
+            <label for="phone" id="number-label">Phone</label>
+            <input  type="number" id="number" min="10" max="99" placeholder="Enter your phone number">
+        </div>
+        <div class="form-control">
+            <br><label>Which option best describe you?</label>
+        <select id="dropdown">
+            <option value="student">Student</option>
+            <option value="intern">Intern</option>
+            <option value="professional">Professional</option>
+            <option value="other">Other</option>
+        </select>
+        </div>
+        <div class="form-control">
+           <label>Which Language do you perfer?<br>
+            <input type="radio" id="pashto" name="pashto" value="1">Pashto<br>
+            <input type="radio" id="pashto" name="pashto" value="1">Dari<br>
+            <input type="radio" id="pashto" name="pashto" value="1">Englsih
+           </label>
+        </div>
+        <div class="form-control">
+             <br><label>Which Department is your favorite?</label><br>
+             <label for="inp-1">
+             <input type="checkbox" id="felid" name="inp-1" value="check">
+             Sofware Engineering</label><br>
+             <label for="inp-2">
+             <input type="checkbox" id="felid" name="inp-2" value="check">
+             Information System</label><br>
+             <label for="inp-3">
+             <input type="checkbox" id="felid" name="inp-3" value="check">
+             Information Technology</label><br>
+        </div>
+        <div class="form-control">
+             <br><label for="comment">Any comments or suggestions?</label>
+             <textarea id="comment" name="comment" row="10" col="50" placeholder="Enter your comment here....."></textarea>
+        </div class="submit">
+             <div class="form-control">
+             <input type="submit" id="submit">
+        </div>
+    </form>
+</body>
+</html>
